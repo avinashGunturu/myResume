@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  margin: 10px 0;
+}
+p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+}
+.dot {
+  color: orange;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.main-container .img-info .img {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.main-container .img-info img {
+  width: 100px;
+  margin-top: 10px;
+}
+.main-container .img-info .img .myname {
+  margin-top: 7px;
+}
+.main-container .img-info .img .mail {
+  margin-top: 4px;
+}
+
+.main-container .img-info .img .number {
+  margin-top: 5px;
+}
+
+.main-container .my-details .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.main-container .my-details .container .subHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.main-container .my-details .container .subHeading i {
+  font-size: 28px;
+  font-weight: 900;
+  color: blueviolet;
+  cursor: pointer;
+}
+.main-container .my-details .container .subHeading h2 {
+  color: orange;
+  font-weight: 700;
+}
+.proficionalskills h3 {
+  margin: 10px 0;
+}
+.proficionalskills h4 {
+  margin: 10px 0;
+}
+.education h3 {
+  margin: 10px 0;
+}
+/* .education ul li {
+  margin: 10px 0;
+} */
+
+.reference h3 {
+  margin-bottom: 6px;
+}
+footer {
+  /* background-color: red */
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+footer h2 {
+  text-align: center;
+  color: orange;
+  margin-bottom: 10px;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+footer ul li {
+  margin: 0 50px;
+  font-size: 40px;
+}
+footer p {
+  text-align: center;
+  color: #555;
+  /* margin-top: 60px; */
+}
+@media (min-width: 800px) {
+  .main-container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-out;
+}
+.reverse {
+  transform: rotate(-360deg);
+  transition: all 0.3s ease-out;
+}
