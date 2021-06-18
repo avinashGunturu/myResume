@@ -24,6 +24,9 @@ p {
 a {
   text-decoration: none;
 }
+.careerobjective p {
+  text-align: justify;
+}
 .dot {
   color: orange;
   font-weight: 900;
@@ -94,7 +97,18 @@ a {
 /* .education ul li {
   margin: 10px 0;
 } */
-
+.projects .pro ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projects .pro a {
+  color: blueviolet;
+  /* background-color: red; */
+  text-align: justify;
+  width: 100%;
+}
 .reference h3 {
   margin-bottom: 6px;
 }
